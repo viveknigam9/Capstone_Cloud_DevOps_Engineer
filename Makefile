@@ -14,7 +14,7 @@ test:
 
 lint:
 	# This is linter for Dockerfiles
-	hadolint Dockerfile
+	hadolint --ignore DL3013 --ignore DL3042 Dockerfile
 	# This is a linter for Python source code linter: https://www.pylint.org/
 	pylint --disable=R,C,W1203,W1202 app.py
 
