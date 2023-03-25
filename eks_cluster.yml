@@ -14,4 +14,4 @@ managedNodeGroups:
     desiredCapacity: 3
     volumeSize: 20
     ssh:
-      publicKeyName: ~/.ssh/id_rsa.pub
+      publicKeyName: vvk_pair
