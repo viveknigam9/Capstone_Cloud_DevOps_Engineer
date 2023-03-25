@@ -1,0 +1,17 @@
+  
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: capstone-eks
+  region: us-east-1
+
+managedNodeGroups:
+  - name: nodegroup
+    instanceType: t2.micro
+    minSize: 2
+    maxSize: 4
+    desiredCapacity: 3
+    volumeSize: 20
+    ssh:
+      publicKeyName: ~/.ssh/id_rsa.pub
