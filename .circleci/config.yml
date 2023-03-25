@@ -24,7 +24,7 @@ jobs:
       - run:
           name: Push Docker Image to Docker Hub
           command: |
-            export DOCKER_IMAGE_NAME=udacity-capstone
+            export DOCKER_IMAGE_NAME=capstone-image
             docker build -t  $DOCKERHUB_USERNAME/$DOCKER_IMAGE_NAME .
             docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_PASSWORD 
             docker push  $DOCKERHUB_USERNAME/$DOCKER_IMAGE_NAME

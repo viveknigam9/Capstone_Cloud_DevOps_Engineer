@@ -6,10 +6,16 @@ Here is the badge from CircleCI :
 This is for Udacity Capstone project
 
 Here i am using AWS Kubernetes as a Service :: EKS cluster to deploy the App in Kubernetes
+
 The virtualenv used here is "capstone"
 
 
 
-
+To integrate the K8S cluster to CircleCI, added below Environment variables to the Project Setup:
+AWS_DEFAULT_REGION
+DOCKERHUB_USERNAME
+DOCKER_IMAGE_NAME
+DOCKERHUB_PASSWORD 
+            
 
 Note: resize.sh was used from earlier Udacity project to increase the disk size on Cloud9 environment
