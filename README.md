@@ -15,9 +15,11 @@ The virtualenv used here is "capstone"
 
 To integrate the K8S cluster to CircleCI, added below Environment variables to the Project Setup:
 AWS_DEFAULT_REGION
+CLUSTER_NAME
 DOCKERHUB_USERNAME
 DOCKER_IMAGE_NAME
-DOCKERHUB_PASSWORD 
+DOCKERHUB_PASSWORD
+
             
 
 
