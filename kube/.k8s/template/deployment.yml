@@ -17,7 +17,7 @@ spec:
         image: viveknig9/capstone-image
         imagePullPolicy: Always
         ports:
-        - containerPort: 8080
+        - containerPort: 8000
   strategy:
     type: RollingUpdate
     rollingUpdate:
@@ -29,7 +29,7 @@ metadata:
   name: capstone-project
 spec:
   ports:
-  - port: 8080
-    targetPort: 8080
+  - port: 8000
+    targetPort: 8000
   selector:
     app: capstone-project
