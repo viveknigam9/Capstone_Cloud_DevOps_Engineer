@@ -5,6 +5,8 @@ Here is the badge from CircleCI :
 # Capstone_Cloud_DevOps_Engineer
 This is for Udacity Capstone project
 
+The Github Url is : https://github.com/viveknigam9/Capstone_Cloud_DevOps_Engineer.git
+
 Here i am using AWS Kubernetes as a Service :: EKS cluster to deploy the App in Kubernetes
 The EKS cluster is created running below command: (After installing eks_cluster)
 eksctl create cluster -f eks_cluster.yml
@@ -14,6 +16,9 @@ The virtualenv used here is "capstone"
 
 
 To integrate the K8S cluster to CircleCI, added below Environment variables to the Project Setup:
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
+AWS_SESSION_TOKEN
 AWS_DEFAULT_REGION
 CLUSTER_NAME
 DOCKERHUB_USERNAME
