@@ -2,6 +2,10 @@ Here is the badge from CircleCI :
 
 [![CircleCI](https://circleci.com/gh/viveknigam9/Capstone_Cloud_DevOps_Engineer.svg?style=svg&circle-token=2536e03781e935ea053dda04fe7a0b85364e355a)](https://circleci.com/gh/viveknigam9/Capstone_Cloud_DevOps_Engineer)
 
+
+Style Badge:
+[![CircleCI](https://circleci.com/gh/viveknigam9/Capstone_Cloud_DevOps_Engineer.svg?style=for-the-badge&logo=appveyor&circle-token=2536e03781e935ea053dda04fe7a0b85364e355a)](https://circleci.com/gh/viveknigam9/Capstone_Cloud_DevOps_Engineer)
+
 # Capstone_Cloud_DevOps_Engineer
 This is for Udacity Capstone project
 
